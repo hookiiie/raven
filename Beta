@@ -29,7 +29,7 @@ local ZERO = Vector3.zero
 local RNG = Random.new(tick() * 1000000)
 local function rngNumber(a, b) return RNG:NextNumber(a, b) end
 
-local WALK_SPEED = 80
+local WALK_SPEED = 500
 local ARRIVE_DISTANCE = 4
 local WAYPOINT_REACHED = 4
 local MOVE_TIMEOUT = 20
